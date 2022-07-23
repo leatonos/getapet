@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBg"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                android:id="@+id/shelterNameDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:fontFamily="@font/coustard"
+                android:text="Register as Shelter"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_shelterImage"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/shelterImagefloatingActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_photo_camera_black_48dp" />
+
+            <EditText
+                android:id="@+id/shelterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/coustard"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/coustard"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/coustard"
+                android:hint="Phone"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/coustard"
+                android:hint="Description"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/coustard"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:fontFamily="@font/coustard"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/shelterSaveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/coustard"
+                android:text="Register"
+                android:textColor="@color/DefaultColorBtnText"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:rippleColor="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

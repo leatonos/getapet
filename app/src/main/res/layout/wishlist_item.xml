@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+
+    <ImageView
+        android:id="@+id/petImageWishList"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.6"
+        android:maxHeight="120dp"
+        android:minHeight="120dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/petNameWishList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:fontFamily="@font/coustard"
+                android:gravity="center"
+                android:text="PetName"
+                android:textColor="@color/DefaultColorBtnText"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/deleteFromWishlistBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:backgroundTint="@color/DefaultColorBtnText"
+            app:srcCompat="@drawable/delete_icon" />
+
+    </LinearLayout>
+
+</LinearLayout>

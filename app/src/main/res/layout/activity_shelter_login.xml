@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBg"
+    android:orientation="vertical"
+    tools:context=".Activities.ShelterLoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        app:srcCompat="@mipmap/get_a_pet_icon_foreground" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Login as Shelter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginRight="45dp"
+        android:ems="10"
+        android:fontFamily="@font/coustard"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="45dp"
+        android:ems="10"
+        android:fontFamily="@font/coustard"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/shelterLoginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="45dp"
+        android:backgroundTint="@color/DefaultColorBtnText"
+        android:fontFamily="@font/coustard"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Don't have an account yet?"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/registerShelterLk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Shelter"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700" />
+</LinearLayout>

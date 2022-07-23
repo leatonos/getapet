@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBg"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="741dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+
+            <TextView
+                android:id="@+id/shelterNameDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:paddingBottom="20dp"
+                android:text="My Profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/shelterNameTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterEmailTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterPhoneTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterAddressTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/shelterDescriptionTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:lines="5" />
+
+            <Button
+                android:id="@+id/saveChangesShelter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/DefaultColorBtnText"
+                android:text="Save changes" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBg"
+    android:orientation="vertical"
+    tools:context=".Activities.AdopterProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                android:id="@+id/textViewAdopterProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/coustard"
+                android:paddingBottom="40dp"
+                android:text="My Profile"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/adopterNameTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/adopterEmailTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/adopterPhoneTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/adopterAddressTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/adopterDescriptionTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/coustard"
+                android:paddingStart="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonSaveChangesAdopter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/DefaultColorBtnText"
+                android:text="Save changes" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
