@@ -9,6 +9,42 @@
         <entry key="..\:/Projetos/GitHubAndroid/Capstone_Dev_wolfs_Get-a-pet/app/src/main/res/layout/activity_find_shelter.xml" value="0.1" />
         <entry key="..\:/Projetos/GitHubAndroid/Capstone_Dev_wolfs_Get-a-pet/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Projetos/GitHubAndroid/Capstone_Dev_wolfs_Get-a-pet/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/drawable/circle_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/drawable/get_a_pet_icon_background.xml" value="0.2545" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/drawable/sqaure_bg.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_add_pet.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_adopter_auth.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_adopter_dashboard.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_adopter_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_adopter_profile.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_edit_pet_shelter.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_find_pet.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_find_shelter.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_home.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_pet_details.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_shelter_dashboard.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_shelter_detail.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_shelter_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_shelter_profile.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_show_all_pets_shelter.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/activity_wishlist.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/item_petgrid.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/pet_in_shelter.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/pet_in_shelter_for_adopters.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/layout/wishlist_item.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/adopter_icon.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/adopter_icon_round.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/get-a-pet-main-logo.xml" value="0.2545" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/get-a-pet-main-logo_round.xml" value="0.2545" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/get_a_pet_icon.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/get_a_pet_icon_round.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/shelter_icon.xml" value="0.236" />
+        <entry key="..\:/Users/Pedro/OneDrive/Desktop/myportifolio/getapet/app/src/main/res/mipmap-anydpi-v26/shelter_icon_round.xml" value="0.236" />
       </map>
     </option>
   </component>

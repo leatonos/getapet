@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="237dp"
         android:layout_margin="30dp"
-        app:srcCompat="@mipmap/get_a_pet_icon_foreground" />
+        app:srcCompat="@mipmap/get_a_pet_main_logo_foreground" />
 
     <Button
         android:id="@+id/regShelter_btn"
